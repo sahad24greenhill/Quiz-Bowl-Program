@@ -17,7 +17,7 @@ for team in range(number_of_teams):
     if answer == correct_answer:
         teams_points[team] += 10
         print("You got the question right on the first try!")
-    else: # re ask question
+    else:
         print("You got the question wrong. Try again!")
         answer = int(input("what is 2+2?"))
         if answer == correct_answer:
